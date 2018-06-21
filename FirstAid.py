@@ -1,0 +1,201 @@
+# First aid.
+from Afflictions import aff_id;
+from Afflictions import aff;
+
+herbPriors = [
+		aff("TREE_PARALYSIS"),
+		aff("paralysis"),
+		aff("asthma"),
+		aff("exhausted"),
+		aff("crippled_body"),
+		aff("thin_blood"),
+		aff("sandrot"),
+		aff("clumsiness"),
+		aff("hypochondria"),
+		aff("weariness"),
+		aff("mirroring"),
+		aff("baldness"),
+		aff("physical_disruption"),
+		aff("mental_disruption"),
+		aff("confusion"),
+		aff("blood_poison"),
+		aff("blood_curse"),
+		aff("impatience"),
+		aff("paresis"),
+		aff("magnanimity"),
+		aff("lethargy"),
+		aff("sensitivity"),
+		aff("recklessness"),
+		aff("ringing_ears"),
+		aff("stupidity"),
+		aff("impairment"),
+		aff("laxity"),
+		aff("haemophilia"),
+		aff("crippled"),
+		aff("merciful"),
+		aff("rend"),
+		aff("masochism"),
+		aff("faintness"),
+		aff("allergies"),
+		aff("vomiting"),
+		aff("hypersomnia"),
+		aff("heartflutter"),
+		aff("epilepsy"),
+		aff("hallucinations"),
+		aff("berserking"),
+		aff("no_blindness"),
+		aff("no_deafness"),
+		aff("pacifism"),
+		aff("peace"),
+		aff("lovers_effect"),
+		aff("hatred"),
+		aff("justice"),
+		aff("dizziness"),
+		aff("dissonance"),
+		aff("shyness"),
+		aff("vertigo"),
+		aff("agoraphobia"),
+		aff("no_waterbreathing"),
+		aff("claustrophobia"),
+		aff("dementia"),
+		aff("loneliness"),
+		aff("blisters"),
+		aff("patterns"),
+		aff("generosity"),
+		aff("paranoia"),
+		aff("self-pity"),
+		aff("body_odor"),
+		aff("commitment_fear"),
+		aff("sadness"),
+		aff("hubris"),
+		aff("addiction"),
+		aff("infested"),
+		aff("blighted"),
+		aff("superstition"),
+		aff("limp_veins"),
+		aff("egocentric"),
+];
+
+pipePriors = [
+	aff("aeon"),
+	aff("migraine"),
+	aff("withering"),
+	aff("slickness"),
+	aff("hellsight"),
+	aff("deadening"),
+	aff("no_rebounding"),
+	aff("disfigurement"),
+	aff("squelched"),
+]
+
+salvePriors = [
+	aff("burnt_skin"),
+
+	aff("anorexia"),
+	aff("head_mangled"),
+	aff("SUPER_ABLAZE"),
+	aff("SUPER_ABLAZE_TORSO"),
+
+	aff("destroyed_throat"),
+	aff("smashed_throat"),
+	aff("anorexia"),
+	aff("indifference"),
+	aff("frozen"),
+	aff("hypothermia"),
+
+	aff("crushed_kneecaps"),
+	aff("crushed_chest"),
+
+	aff("head_bruised_critical"),
+	aff("left_arm_bruised_critical"),
+	aff("right_arm_bruised_critical"),
+	aff("left_leg_bruised_critical"),
+	aff("right_leg_bruised_critical"),
+	aff("torso_bruised_critical"),
+
+	aff("prone_left_leg_damaged"),
+	aff("prone_right_leg_damaged"),
+
+	aff("mauled_face"),
+
+
+	aff("left_leg_amputated"),
+	aff("right_leg_amputated"),
+	aff("right_leg_mangled"),
+	aff("left_leg_mangled"),
+	aff("left_leg_damaged"),
+	aff("left_leg_bruised_moderate"),
+	aff("right_leg_damaged"),
+	aff("right_leg_bruised_moderate"),
+	aff("left_leg_bruised"),
+	aff("right_leg_bruised"),
+	aff("left_leg_broken"),
+	aff("right_leg_broken"),
+	aff("head_damaged"),
+
+	aff("head_bruised_moderate"),
+	aff("head_bruised"),
+
+	aff("crushed_elbows"),
+
+	aff("left_arm_amputated"),
+	aff("right_arm_amputated"),
+	aff("left_arm_mangled"),
+	aff("right_arm_mangled"),
+	aff("left_arm_damaged"),
+	aff("right_arm_damaged"),
+	aff("right_arm_bruised_moderate"),
+	aff("right_arm_bruised"),
+	aff("left_arm_bruised_moderate"),
+	aff("left_arm_bruised"),
+	aff("left_arm_broken"),
+	aff("right_arm_broken"),
+
+	aff("right_arm_dislocated"),
+	aff("left_arm_dislocated"),
+	aff("right_leg_dislocated"),
+	aff("left_leg_dislocated"),
+
+	aff("shivering"),
+	aff("torso_mangled"),
+	aff("torso_damaged"),
+	aff("cracked_ribs"),
+	aff("torso_bruised_moderate"),
+	aff("torso_bruised"),
+	aff("spinal_rip"),
+	aff("ablaze"),
+
+	aff("head_prerestore"),
+	aff("right_arm_prerestore"),
+	aff("right_leg_prerestore"),
+	aff("left_leg_prerestore"),
+	aff("torso_prerestore"),
+	aff("left_arm_prerestore"),
+	aff("collapsed_lung"),
+
+	aff("crippled_throat"),
+	aff("effused_blood"),
+	aff("no_density"),
+	aff("no_insulation"),
+
+	aff("gorged"),
+	aff("heatspear"),
+
+	## Hidden affs
+	aff("unknown_leg"),
+	aff("unknown_arm"),
+	aff("stuttering"),
+	aff("blurry_vision"),
+]
+
+
+affElixirPriors = [
+	aff("voyria"),
+	aff("no_venom"),
+	aff("no_levitation"),
+]
+
+## TODO: Implement basic first aid.
+def FirstAid(self):
+	##print("TEST");
+	1 + 1;
